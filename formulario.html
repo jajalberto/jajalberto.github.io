@@ -1,0 +1,86 @@
+<!--Alberto Hidalgo Fernandez-->
+<!DOCTYPE html>
+<html lang=es>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+  <link rel="icon" type="image/x-icon" href="imagenes/favicon.png">
+<link href="formu.css" type="text/css" rel="stylesheet">
+<title>Formula 1 - Inicio de sesión</title>
+</head>
+<body>
+	<!--Cabecera-->
+  <header>
+    <h1>Formula 1</h1>
+      <!--marquesinas-->
+      <div>
+        <p class="cochesmovimiento">
+        <marquee behavior="scroll" direction="right" scrollamount="9">
+        <img class="marquesinasfooter" src="imagenes/haas.png" name="10"></img>
+        <img class="marquesinasfooter" src="imagenes/alfaromeo.png" name="8"></img>
+        <img class="marquesinasfooter" src="imagenes/astonmartin.png" name="7"></img>
+        <img class="marquesinasfooter" src="imagenes/alphatauri.png" name="6"></img>
+        <img class="marquesinasfooter" src="imagenes/alpine.png" name="5"></img>
+        <img class="marquesinasfooter" src="imagenes/mclaren.png" name="4"></img>
+        <img class="marquesinasfooter" src="imagenes/ferrari.png" name="3"></img>
+        <img class="marquesinasfooter" src="imagenes/mercedes.png" name="2"></img>
+        <img class="marquesinasfooter" src="imagenes/redbull.png" name="1"></img>
+        </marquee>	
+        </p>
+      </div>
+</header>
+<!--Cuerpo de la página-->
+<section>
+  <br>
+  <!--Formulario-->
+  <div id="formulario">
+    <h2>Formulario</h1>
+    <form>
+      <fieldset>
+        <br>
+        <legend>Incio de sesión</legend>
+        <p>Usuario: <input type="text" required></input></p>
+        <p>Contraseña: <input type="password" required></p>
+      </fieldset>
+    
+      <fieldset>
+      <br>
+        <legend>Datos personales (Solo a la hora del registro)</legend>
+        <p> Nombre: <input type="text"></input></p>
+        <p> Apellidos: <input type="text" ></input></p>
+        <p> Correo electrónico: <input type="email" placeholder="--------------@-------"></input></p>
+        <p> Fecha de nacimiento: <input type="date"></input></p>
+        <p> Teléfono: <input type="tel" placeholder="+34"></input></p>
+        <p> Domicilio: <input type="text"></input></p>
+        <p> Código postal: <input type="number"></input></p>
+        <br>
+        </fieldset>
+    
+      <fieldset>
+      <br>
+        <legend>Observaciones.</legend>
+        <p>Aquí puedes introducir observaciones:</p>
+        <textarea></textarea>
+        <br>
+        <p>¿Como nos encontró?<select size="1">
+                    <option>Al azar</option>
+                    <option>Buscando</option>
+        </select></p>
+      </fieldset>
+      <br>
+        <p><input type="submit" value="enviar">
+        <br><br>
+        </input><input type="submit" value="borrar"></input></p>
+    </form>
+  </div>
+  <br>
+</section>
+	<!--footer (parte final de la página)-->
+  <footer id="footer">
+    <img src="imagenes/daznf1logo.png" name="fialogo" class="marquesinasfooter" id="imgfooter"></img>
+    <p id="pfooter">© 2003-2022 Formula One World Championship Limited</p><br>
+  </footer>
+</body>
+</html>
